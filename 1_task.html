@@ -1,0 +1,128 @@
+<html>
+<head>
+
+<header>Testing Eloquent JS</header>
+</head>
+
+<body>
+<p>Current task</p>
+<script>
+//console.log("yoba");
+
+/*
+var theNumber = prompt("Выбери число: ", "");
+if (!isNaN(theNumber))
+	alert("The number is squre root from " + theNumber*theNumber);
+*/
+
+
+
+
+/*******Program structure TASK 1*****
+var curOut='';
+for (var i=0; i<7; i++){
+		curOut=curOut + '#';
+		console.log(curOut);
+}
+*/
+
+/*******Program structure TASK 2****
+
+for (var i=1; i<100; i++){
+	
+	if((i%5)==0 && (i%3)==0) {console.log('FizzBuzz'); continue;}
+	if((i%5)==0) {console.log('Fizz'); continue;}
+	if((i%3)==0) {console.log('Buzz'); continue;}
+	if((i%5)!=0 && (i%3)!=0) {console.log(i); continue;}
+	
+}
+*/
+
+/*******Program structure TASK 3****
+var theNumber = prompt("Enter board size: ", "");
+
+if (!isNaN(theNumber)){
+	var whiteSp="  ", blackSp="##", board="";
+	for (var i=0; i<theNumber; i++){
+		board+="|";
+		for (var j=0; j<theNumber; j++){
+			if ((i+j)%2==0) board+=blackSp;
+			else board+=whiteSp;
+		}
+		board+="|";
+		board+="\n";
+	}
+	console.log(board);
+}
+*/
+
+/*
+function multiplier(factor) {
+  return function(number) {
+    return number * factor;
+  };
+}
+
+var twice = multiplier(2);
+var thrice= multiplier(3);
+
+console.log(thrice(5));
+// → 15
+
+console.log(twice(5));
+// → 10
+*/
+
+
+/*******Functions TASK 1****
+
+function min(a,b){
+  if(a<b) return a;
+  else return b;
+}
+console.log(min(0, 10));
+// → 0
+console.log(min(0, -10));
+// → -10
+*/
+
+/*******Functions TASK 2****
+function isEven(n){
+	if (n == 1) return false;
+	else if (n == 0) return true;
+	else if(n>=2) return isEven(n-2);
+	else return isEven(-n);
+}
+
+console.log(isEven(50));
+// → true
+console.log(isEven(75));
+// → false
+console.log(isEven(-1));
+// → ??
+*/
+
+/*******Functions TASK 3****
+function countChar(str,symb){	
+	var count=0;
+		for(var i=0; i<str.length; i++){
+		if(str.charAt(i)==symb) count++;
+	}
+	return count;		
+}
+
+function countBs(str){
+	return countChar(str,'B');
+}
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", 'k'));
+// → 4
+*/
+3
+
+
+</script>
+
+</body>
+</html>
